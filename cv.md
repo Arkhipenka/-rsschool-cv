@@ -40,7 +40,7 @@ alert( result );
 
 ## **Language**
 
-_English_ pre-intermediate.
+_English_ pre-intermediate.</br>
 _Russian_ Native.</br>
 _Belorusian_ Native.</br>
 _Polish_ B1.
