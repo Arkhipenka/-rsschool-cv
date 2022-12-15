@@ -1,0 +1,38 @@
+@font-face{
+    font-family: "oswald";
+    src: url(Oswald-VariableFont_wght.ttf);
+}
+body{
+    font-family: "oswald", sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding-top: 50px;
+}
+
+.header__img{
+    border-radius: 50%;
+    border: 5px solid #857575;
+}
+
+.head__name{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.head__prof{
+    color: #857575;
+    margin: 0 0 10px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head__about{
+    font-size: 1.5em;
+    color: #1f203e;
+}
