@@ -4,13 +4,19 @@
 }
 body{
     font-family: "oswald", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .header{
     display: flex;
     flex-direction: column;
     
     align-items: center;
+    margin: 0 50px;
     padding-top: 50px;
+    max-width: 700px;
+    border-bottom: 1px solid #900830;
 }
 
 .header__img{
@@ -27,12 +33,48 @@ body{
     margin: 0 0 10px;
 }
 
-.about{
+
+.head__body{
+    font-size: 2em;
+    margin-top: 0;
+    color: #1f203e;
+}
+.section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 80px 50px 0;
+    max-width: 700px;
+    border-bottom: 1px solid #900830;
 }
-.head__about{
+.education__block{
+    display: flex;
+    align-items:center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.logo{
+    border-radius: 7px;
+    width: 70px;
+    height: 70px;
+}
+.university{
+    margin-left: 50px;
+    width: 100%;
+}
+.university__head{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+ .head__university{
     font-size: 1.5em;
-    color: #1f203e;
-}
+    margin: 0;
+ }
+ .faculty, .years{
+    margin: 0;
+    color: #857575;
+ }
+ .specialization{
+    margin: 0;
+ }
