@@ -88,3 +88,52 @@ body{
     padding: 0;
     width: 100%;
 }
+.code{
+    margin: 10px 0 10px;
+    padding: 20px;
+    color: #abb2b1;
+    background-color: #23272e;
+    border-radius: 5px;
+}
+.func{
+    color: #c678dd;
+}
+.name__func{
+    color: #57afef;
+}
+.symb{
+    color: #d19a5d;
+}
+.var{
+    color: #c26c75;
+}
+.portfolio{
+    margin-top: 30px;
+}
+.porfolio__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+}
+.item__img{
+    width: 100%;
+    height: 200px;
+}
+.porfolio__item:hover {
+    background-color: #8575753d;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px #23272e;
+}
+.porfolio__item:hover > img {
+    border-radius: 0;
+}
+.name__website{
+    margin-top: 10px;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: #23272e;
+}
