@@ -200,3 +200,17 @@ ul{
     height: 100%;
     
 }
+@media (max-width: 500px){
+    .head{
+        margin: 0 20px;
+    }
+    .header{
+        padding: 10px 20px;
+    }
+    .section{
+        margin: 80px 20px 0;
+    }
+    .footer{
+        height: 70px;
+    }
+}
