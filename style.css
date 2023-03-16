@@ -7,8 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
-    
+    margin: 0;    
 }
 .header{
     display: flex;
@@ -48,13 +47,10 @@ body{
     max-width: 700px;
     border-bottom: 1px solid #900830;
 }
-
-
 .header__img{
     border-radius: 50%;
     border: 5px solid #857575;
 }
-
 .head__name{
     font-size: 2.5em;
     margin-bottom: 10px;
@@ -187,8 +183,7 @@ ul{
     justify-content: center;
     align-items: center;
     height: 100px;
-    width: 100%;
-    
+    width: 100%;   
 }
 .footer__logo{
     width: 30px;
@@ -197,8 +192,7 @@ ul{
 }
 .logo__img{
     width: 100%;
-    height: 100%;
-    
+    height: 100%;  
 }
 @media (max-width: 500px){
     .head{
